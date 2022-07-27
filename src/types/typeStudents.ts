@@ -1,15 +1,8 @@
-export type a = {
-   id: string,
-   name: string,
-   price: number,
-   image_url: string
-}
-
-
-
-export type b = {
-   id: number,
-   name: string,
+export type studentsType = {
+   id: number | string,
+   nome: string,
    email: string,
-   password: string
+   data_nasc: string,
+   turma_id: [],
+   hobbies: []
 }
