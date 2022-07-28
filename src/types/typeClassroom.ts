@@ -1,5 +1,5 @@
-export type classroomType = {
-    id: number | string,
+export type ClassroomType = {
+    id: string,
     nome: string,
     docentes: [],
     estudantes: [],
